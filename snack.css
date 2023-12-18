@@ -199,6 +199,8 @@ header nav a {
     padding: 50px;
     box-sizing: border-box;
     gap: 0;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 #skill .list .item {
     display: flex;
