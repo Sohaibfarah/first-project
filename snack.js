@@ -16,6 +16,7 @@ listA.forEach(a => {
             tabActive.style.setProperty('--x', event.clientX + 'px');
             tabActive.style.setProperty('--y', event.clientY + 'px');
             tabActive.classList.add('active');
+            
         }
     })
 })
