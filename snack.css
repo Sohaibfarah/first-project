@@ -267,7 +267,9 @@ header nav a {
     overflow: hidden;
     position: relative;
     transition: background .2s ease;
-    
+    height: 400px;
+    overflow: scroll;
+    margin-top: 10px;
 }
 #project .list .item:hover {
     background-color: #293b4c;
@@ -294,7 +296,7 @@ header nav a {
 }
 #project .list .item .des {
     padding: 0 10px 10px 10px;
-    font-size: large;
+    font-size: small;
 }
 #project .list .item .author {
     display: flex;
@@ -404,9 +406,12 @@ header nav a {
         padding: 10px;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+        height: max-content;
+        margin-top: 50px;
+        margin-bottom: 60px;
     }
     #project .list .item img {
-        height: 100px;
+        height: 150px;
     }
     
 }
