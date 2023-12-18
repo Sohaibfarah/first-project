@@ -190,6 +190,7 @@ header nav a {
         45deg, #3A2530, #171514, #412726
     );
     background-size: cover;
+    overflow: scroll;
 }
 #skill .list {
     height: 100vh;
