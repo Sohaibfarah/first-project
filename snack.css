@@ -396,6 +396,9 @@ header nav a {
     #skill .list {
         padding: 0;
         grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        margin-bottom: 70px;
+        height: max-content;
     }
     #skill .list .item:nth-child(odd){
         background-color: unset;
